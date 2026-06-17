@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+</head>
+
+<body>
+<<center>
+        <!-- Navigation Menu block look-e -->
+        <p>
+            <strong>
+                <a href="index.html">Home</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="education.html">Education</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="experience.html">Experience</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="projects.html">Projects</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="contact.html">Contact</a>
+            </strong>
+        </p>
+    </center>
+
+    <hr size="2" noshade> 
+
+    <br><br>
+    <h1>Contact Me</h1>
+    
+    <p>Fill out the form below and I'll get back to you soon.</p>
+    
+
+    <form>
+
+        <!-- First Name -->
+        <label>First Name:</label><br>
+        <input type="text" name="first_name"><br><br>
+
+        <!-- Last Name -->
+        <label>Last Name:</label><br>
+        <input type="text" name="last_name"><br><br>
+
+        <!-- Gender -->
+        <fieldset>
+            <legend>Gender</legend>
+
+            <input type="radio" name="gender"> Male<br>
+            <input type="radio" name="gender"> Female<br>
+            <input type="radio" name="gender"> Other<br>
+            <input type="radio" name="gender"> Prefer not to say
+        </fieldset>
+
+        <br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <!-- Services -->
+        <fieldset>
+            <legend>Services You're Interested In</legend>
+
+            <input type="checkbox"> Web Development<br>
+            <input type="checkbox"> AI/ML<br>
+            <input type="checkbox"> Backend
+        </fieldset>
+
+        <br>
+
+        <!-- Reason -->
+        <label>Reason for Contact:</label><br>
+        <select>
+            <option>-- Please choose an option --</option>
+            <option>Project Work</option>
+            <option>Collaboration</option>
+            <option>Job Opportunity</option>
+        </select>
+
+        <br><br>
+
+        <!-- Appointment -->
+        <label>Book an Appointment:</label><br>
+        <input type="datetime-local"><br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Send Message">
+
+    </form>
+
+</body>
+</html>
