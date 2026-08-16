@@ -1,0 +1,191 @@
+body {
+
+    background: #f3f5f9;
+
+    font-family: Arial, sans-serif;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+}
+
+
+
+.card {
+
+    width: 450px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+
+}
+
+
+
+.card-header {
+
+    background: #101c3d;
+
+    color: white;
+
+    padding: 35px;
+
+}
+
+
+.card-header h1 {
+
+    font-size: 28px;
+
+    margin: 0;
+
+}
+
+
+.card-header p {
+
+    text-transform: uppercase;
+
+    font-size: 14px;
+
+    letter-spacing: 2px;
+
+    color: #6ea8ff;
+
+}
+
+
+
+
+.field {
+
+    padding: 0 35px;
+
+    margin-top: 22px;
+
+}
+
+
+.field label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 15px;
+
+}
+
+
+.field input {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    background: #eef3fb;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+}
+
+
+
+.checkbox {
+
+    padding: 25px 35px;
+
+}
+
+
+.checkbox label {
+
+    display: block;
+
+    margin: 12px 0;
+
+}
+
+
+
+.buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    padding: 20px 35px 35px;
+
+}
+
+
+
+button {
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    border: none;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+
+
+.btn-primary {
+
+    background: #377ff0;
+
+    color: white;
+
+    flex: 1;
+
+}
+
+
+
+.btn-secondary {
+
+    background: #eef3fb;
+
+    width: 100px;
+
+}
+
+
+
+.error {
+
+    color: red;
+
+    font-size: 13px;
+
+}
+
+
+
+.summary {
+
+    margin-top: 20px;
+
+    padding: 30px;
+
+}
